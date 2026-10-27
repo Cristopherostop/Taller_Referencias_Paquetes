@@ -8,7 +8,7 @@ Preguntas
    Respuestas
 
 1. ¿Qué guarda una variable int y qué guarda una variable Libro?
-Un int funciona como una cajita que guarda directamente el número entero (por ejemplo, el 5), mientras que una variable Libro actúa como un papelito con la dirección de memoria exacta (el heap) de dónde vive el objeto real.
+Un int funciona como una cajita que guarda directamente el número entero (por ejemplo, el 5), mientras que una variable Libro actúa como un papelito con la dirección de memoria exacta de dónde vive el objeto real.
 
 2. ¿Por qué prestar con l2 cambió l1 pero no l3?
 Pasa porque l1 y l2 compartían la misma dirección de memoria (apuntaban al mismo libro), así que un cambio hecho por uno se reflejaba automáticamente en el otro. En cambio, l3 nació de un new completamente independiente, teniendo su propio espacio en la memoria y librándose de ese efecto.
